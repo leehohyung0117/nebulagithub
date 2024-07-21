@@ -59,3 +59,4 @@ key_iris.keybind.wireframe:key.keyboard.unknown
 soundCategory_music:0.0
 resourcePacks:["vanilla","fabric","file/Mc둥근모.zip"]
 incompatibleResourcePacks:["craterlib","modernfix","simplerpc","xaerominimap","xaeroworldmap","yet_another_config_lib_v3","file/Mc둥근모.zip"]
+textBackgroundOpacity:0.0

@@ -11,7 +11,7 @@
       "id": "유와서버-1.20.4",
       "name": "유와서버 (Minecraft 1.20.4)",
       "description": "유와서버 Running Minecraft 1.20.4 (Fabric v0.15.11)",
-      "icon": "https://i.imgur.com/ngUPU9K.png",
+      "icon": null,
       "version": "1.0.0",
       "address": "mc.kimyoa.com",
       "minecraftVersion": "1.20.4",
@@ -21,7 +21,7 @@
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": false,
-      "autoconnect": true,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.15.11",
@@ -1031,9 +1031,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 2790,
+            "size": 2817,
             "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/yosbr/options.txt",
-            "MD5": "c6b90774cebda959b5f758f8f1cc235e",
+            "MD5": "3b09a10ec82d9ac675c13bfb1a31be60",
             "path": "config/yosbr/options.txt"
           }
         },
