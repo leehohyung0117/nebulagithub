@@ -1,0 +1,1142 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "유와서버-1.20.4",
+      "name": "유와서버 (Minecraft 1.20.4)",
+      "description": "유와서버 Running Minecraft 1.20.4 (Fabric v0.15.11)",
+      "icon": "https://i.imgur.com/ngUPU9K.png",
+      "version": "1.0.0",
+      "address": "mc.kimyoa.com",
+      "minecraftVersion": "1.20.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.11",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1327691,
+            "MD5": "b49fcf1bafc14bcda2472a0f060ebe41",
+            "url": "https://leehohyung0117.github.io/repo/lib/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.4-fabric-0.15.11",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "6fd8b9b040c92fe4906201f1417c6c13",
+                "url": "https://leehohyung0117.github.io/repo/versions/1.20.4-fabric-0.15.11/1.20.4-fabric-0.15.11.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://leehohyung0117.github.io/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://leehohyung0117.github.io/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://leehohyung0117.github.io/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://leehohyung0117.github.io/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://leehohyung0117.github.io/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1458875,
+                "MD5": "9dcf01250f72212bf97f0fef55ba5acd",
+                "url": "https://leehohyung0117.github.io/repo/lib/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 608319,
+                "MD5": "3a1cade1634c518db6147c9771686ea9",
+                "url": "https://leehohyung0117.github.io/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "io.github.foundationgames:animatica:0.6.1+1.20.4@jar",
+          "name": "Animatica",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 71415,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/animatica-0.6.1+1.20.4.jar",
+            "MD5": "62f56949e2f934073f5576fc4758ff4f"
+          }
+        },
+        {
+          "id": "dev.architectury.utils:architectury:11.1.17@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 587429,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/architectury-11.1.17-fabric.jar",
+            "MD5": "666d154657c8c2241377720d679dc6de"
+          }
+        },
+        {
+          "id": "com.tterrag:blur:3.2.0@jar",
+          "name": "Blur (Fabric)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 155092,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/blur-3.2.0.jar",
+            "MD5": "72dfc9ed13eab2bf1c83ec1e4aa68858"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.12.7@jar",
+          "name": "Chat Heads",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 60401,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/chat_heads-0.12.7-fabric-1.20.3.jar",
+            "MD5": "7999eace9f67f994dc942b470506ad25"
+          }
+        },
+        {
+          "id": "ezzenix.chatanimation:chatanimation:1.0.5@jar",
+          "name": "ChatAnimation",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16345637,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/chatanimation-1.0.5.jar",
+            "MD5": "352e79d9617ed4adda0d3ba12936fef0"
+          }
+        },
+        {
+          "id": "shcm.shsupercm:citresewn:1.1.4+1.20.4@jar",
+          "name": "CIT Resewn",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 391814,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/citresewn-1.1.5+1.20.4.jar",
+            "MD5": "9707faa02b3d8e0d2c14b5c409dae4f7"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:13.0.121@jar",
+          "name": "Cloth Config v13",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1142084,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/cloth-config-13.0.121-fabric.jar",
+            "MD5": "3903e7d3c9957bacedae1365ba856202"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0-beta.5+1.20.2@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1009401,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/continuity-3.0.0-beta.5+1.20.2.jar",
+            "MD5": "2b62a19992d9e8cbbe6f2830074cfee3"
+          }
+        },
+        {
+          "id": "com.hypherionmc:craterlib:2.0.1@jar",
+          "name": "CraterLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1745238,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/CraterLib-Fabric-1.20.4-2.0.1.jar",
+            "MD5": "40d3c27940301595e2157421dba42bf9"
+          }
+        },
+        {
+          "id": "chylex.customwindowtitle:customwindowtitle:1.2.0@jar",
+          "name": "Custom Window Title",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 15478,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/CustomWindowTitle-Fabric-1.20+v1.2.0.jar",
+            "MD5": "3cd2fe9e8780ad86bae1a51f1dd2410b"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.1.3@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 409792,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/entity_model_features_fabric_1.20.4-2.1.3.jar",
+            "MD5": "14093c22288a1ffec24643cad05d504a"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.1.3@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 602110,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/entity_texture_features_fabric_1.20.4-6.1.3.jar",
+            "MD5": "0d88842b06aa02367cdaca1a775fc7c8"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.6.6@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 66529,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/entityculling-fabric-1.6.6-mc1.20.4.jar",
+            "MD5": "34164c19e34666567a670ed55ae02d1a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.97.1+1.20.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2187521,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/fabric-api-0.97.1+1.20.4.jar",
+            "MD5": "bf5ff86ed44c610094d334a37e3c4980"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.11.0+kotlin.2.0.0@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7015315,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+            "MD5": "ac91311ce91421ca52a96d2a4e4f078c"
+          }
+        },
+        {
+          "id": "randommcsomethin.fallingleaves:fallingleaves:1.15.6@jar",
+          "name": "Falling Leaves",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 156773,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/fallingleaves-1.15.6+1.20.1.jar",
+            "MD5": "1d13a592b3c329e2bc10b658161e8429"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.3@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125100,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/ferritecore-6.0.3-fabric.jar",
+            "MD5": "a684cfcdbc32eddaf78782fb4e5762f4"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.2.18+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 250364,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/ImmediatelyFast-Fabric-1.2.18+1.20.4.jar",
+            "MD5": "7530923c63a9696f7d18eb2bc37a6f98"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.31+mc1.20.4@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105350,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/indium-1.0.31+mc1.20.4.jar",
+            "MD5": "86d20afc613763546f51452ef893be82"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.1+mc1.20.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2703833,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/iris-1.7.1+mc1.20.4.jar",
+            "MD5": "6a6fe8186f91cf476336219dba7f66f9"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.3.5-1.20.4@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 36420,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/koreanpatch-1.3.5-1.20.4.jar",
+            "MD5": "47e5018c2f6702d67122ae464242461c"
+          }
+        },
+        {
+          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.6@jar",
+          "name": "Krypton",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 167163,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/krypton-0.2.6.jar",
+            "MD5": "eaffbefc9a3dd361299c09eda8826c35"
+          }
+        },
+        {
+          "id": "dev.lambdaurora:lambdynlights:2.3.4+1.20.4@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 568669,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/lambdynamiclights-2.3.4+1.20.4.jar",
+            "MD5": "3c849e6337ff7c850762c6cc27f607ab"
+          }
+        },
+        {
+          "id": "generated.fabricmod:languagereload:1.6.1+1.20.4@jar",
+          "name": "Language Reload",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 69902,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/language-reload-1.6.1+1.20.4.jar",
+            "MD5": "147b071fab98c93a681ed77d419b6b8f"
+          }
+        },
+        {
+          "id": "generated.fabricmod:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14531,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/lazydfu-0.1.3.jar",
+            "MD5": "b36e83f424c5bb5100a3e8ffea0c6ce7"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.12.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 716022,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/lithium-fabric-mc1.20.4-0.12.1.jar",
+            "MD5": "83da6729d5402dc42eca740a96f97346"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49334,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "MD5": "a8461f89d267441752c95beb5448e940"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.14@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 65430,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/modelfix-1.14-fabric.jar",
+            "MD5": "37022aa425061707b0ed1ada2c071d97"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.17.0+mc1.20.4@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 458056,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/modernfix-fabric-5.17.0+mc1.20.4.jar",
+            "MD5": "c988c6a3371040def77a32f3741c9723"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:9.2.0@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 963019,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/modmenu-9.2.0.jar",
+            "MD5": "f8008ee81dd401a441bd20f41e43fca2"
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.7.4@jar",
+          "name": "NotEnoughAnimations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 423906,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/notenoughanimations-fabric-1.7.4-mc1.20.4.jar",
+            "MD5": "f7e4960f1d8258ace35fb81a7f45cc11"
+          }
+        },
+        {
+          "id": "generated.fabricmod:placeholder-api:2.4.0-pre.1+1.20.4@jar",
+          "name": "Placeholder API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 230092,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/placeholder-api-2.4.0-pre.1+1.20.4.jar",
+            "MD5": "5199f598a749bcb195858f1256124fd3"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.7.2+mc1.20.4-build.102@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77393,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/reeses_sodium_options-1.7.2+mc1.20.4-build.102.jar",
+            "MD5": "3353347619cc18acb9b6ef811ac6a310"
+          }
+        },
+        {
+          "id": "com.misterpemodder:shulkerboxtooltip:4.1.0+1.20.4@jar",
+          "name": "Shulker Box Tooltip",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1225846,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/shulkerboxtooltip-fabric-4.1.0+1.20.4.jar",
+            "MD5": "949844eb69788cc29ac62ef1cbadbae3"
+          }
+        },
+        {
+          "id": "me.hypherionmc.simplerpc.loaders:simplerpc:3.3.2@jar",
+          "name": "Simple RPC",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 214662,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/SimpleRPC-Universal-3.3.2.jar",
+            "MD5": "7b7785ce8501d9958a6936a95df45ac8"
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.6.6@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 472639,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/skinlayers3d-fabric-1.6.6-mc1.20.4.jar",
+            "MD5": "f573a794ff4b92edc424d81cb105e88b"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.4-build.116@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 385665,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/sodium-extra-0.5.4+mc1.20.4-build.116.jar",
+            "MD5": "a414a1b266c8e6bd22b37c72413000ff"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 949085,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
+            "MD5": "d7753a50ca37f50abb10465a9a425dac"
+          }
+        },
+        {
+          "id": "generated.fabricmod:starlight:1.1.3+fabric.f5dcd1a@jar",
+          "name": "Starlight",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 126410,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/starlight-1.1.3+fabric.f5dcd1a.jar",
+            "MD5": "e4b2c577ba4501b8cc29c7217eeaf108"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.4-2.5.19@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8132399,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/voicechat-fabric-1.20.4-2.5.19.jar",
+            "MD5": "ff6eefd2733b57a2f87e798a92872389"
+          }
+        },
+        {
+          "id": "dev.tr7zw:waveycapes:1.4.8@jar",
+          "name": "WaveyCapes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 359756,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/waveycapes-fabric-1.4.8-mc1.20.4.jar",
+            "MD5": "29a9bca47aeff97d2f3c62bffa9e6fb0"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:24.2.0@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1503234,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/Xaeros_Minimap_24.2.0_Fabric_1.20.4.jar",
+            "MD5": "509b37089fc1c6f06b2dd84f74d22f2b"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.38.8@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 949246,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/XaerosWorldMap_1.38.8_Fabric_1.20.4.jar",
+            "MD5": "2259d3be3d40d838bbffe73c4cc0088f"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.5.0+1.20.4-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1149707,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/YetAnotherConfigLib-3.5.0+1.20.4-fabric.jar",
+            "MD5": "c2dd490a516cb036e3ff30682e28df9f"
+          }
+        },
+        {
+          "id": "generated.fabricmod:yosbr:0.1.2@jar",
+          "name": "YOSBR",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 17373,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/yosbr-0.1.2.jar",
+            "MD5": "9fcce225f25b6fd17921c87ff1c720f1"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.0+1.20.4@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 809489,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/fabricmods/required/Zoomify-2.14.0+1.20.4.jar",
+            "MD5": "6c546150c68384ba3f1f5948a7e8ad7e"
+          }
+        },
+        {
+          "id": "animatica.properties",
+          "name": "animatica.properties",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/animatica.properties",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/animatica.properties"
+          }
+        },
+        {
+          "id": "blur.json",
+          "name": "blur.json",
+          "type": "File",
+          "artifact": {
+            "size": 697,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/blur.json",
+            "MD5": "6f0063acd055223fff02e5d7f358ae78",
+            "path": "config/blur.json"
+          }
+        },
+        {
+          "id": "chat_heads.json5",
+          "name": "chat_heads.json5",
+          "type": "File",
+          "artifact": {
+            "size": 152,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/chat_heads.json5",
+            "MD5": "ff6e0dc634336299e0022cdd5fee1242",
+            "path": "config/chat_heads.json5"
+          }
+        },
+        {
+          "id": "citresewn-defaults.json",
+          "name": "citresewn-defaults.json",
+          "type": "File",
+          "artifact": {
+            "size": 49,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/citresewn-defaults.json",
+            "MD5": "bc5045a4380a10d3b83bedd196a37f28",
+            "path": "config/citresewn-defaults.json"
+          }
+        },
+        {
+          "id": "citresewn.json",
+          "name": "citresewn.json",
+          "type": "File",
+          "artifact": {
+            "size": 121,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/citresewn.json",
+            "MD5": "da5f2a0bcc6d4263222686cd16c5575e",
+            "path": "config/citresewn.json"
+          }
+        },
+        {
+          "id": "continuity.json",
+          "name": "continuity.json",
+          "type": "File",
+          "artifact": {
+            "size": 122,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/continuity.json",
+            "MD5": "16114edbb9460c49373bb12561ddf7c3",
+            "path": "config/continuity.json"
+          }
+        },
+        {
+          "id": "customwindowtitle-client.toml",
+          "name": "customwindowtitle-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 48,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/customwindowtitle-client.toml",
+            "MD5": "5f5f20528531196b4583894c4e57a503",
+            "path": "config/customwindowtitle-client.toml"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 929,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/entityculling.json",
+            "MD5": "609751fdbe41521c973eca7f2bcd4658",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "entity_model_features.json",
+          "name": "entity_model_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 712,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/entity_model_features.json",
+            "MD5": "d9701646ee1096304314d3328622487d",
+            "path": "config/entity_model_features.json"
+          }
+        },
+        {
+          "id": "entity_texture_features.json",
+          "name": "entity_texture_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 1230,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/entity_texture_features.json",
+            "MD5": "51de1ee33a0610fe09f4af836f1cf7e3",
+            "path": "config/entity_texture_features.json"
+          }
+        },
+        {
+          "id": "etf_warnings.json",
+          "name": "etf_warnings.json",
+          "type": "File",
+          "artifact": {
+            "size": 28,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/etf_warnings.json",
+            "MD5": "b49b5603d2df29fa132f89ec91974572",
+            "path": "config/etf_warnings.json"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/fabric/indigo-renderer.properties",
+            "MD5": "031504c8b4bda359ad1f9a6033090a9a",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "fallingleaves.json",
+          "name": "fallingleaves.json",
+          "type": "File",
+          "artifact": {
+            "size": 601,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/fallingleaves.json",
+            "MD5": "562e929184a6781db5c6d864efb79a53",
+            "path": "config/fallingleaves.json"
+          }
+        },
+        {
+          "id": "ferritecore.mixin.properties",
+          "name": "ferritecore.mixin.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1525,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/ferritecore.mixin.properties",
+            "MD5": "bf3e6be63e300b0290cfc849beb64ede",
+            "path": "config/ferritecore.mixin.properties"
+          }
+        },
+        {
+          "id": "immediatelyfast.json",
+          "name": "immediatelyfast.json",
+          "type": "File",
+          "artifact": {
+            "size": 1142,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/immediatelyfast.json",
+            "MD5": "5ea4769a2335dfad801d3d1b4883aadd",
+            "path": "config/immediatelyfast.json"
+          }
+        },
+        {
+          "id": "indium-renderer.properties",
+          "name": "indium-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 115,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/indium-renderer.properties",
+            "MD5": "df78668ca8fec779869ad8084c97cdc0",
+            "path": "config/indium-renderer.properties"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 289,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/iris.properties",
+            "MD5": "5792826a392988258c0bcd38e7d7f371",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "lambdynlights.toml",
+          "name": "lambdynlights.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1096,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/lambdynlights.toml",
+            "MD5": "d9be5d89655c2be37e656932231fdd72",
+            "path": "config/lambdynlights.toml"
+          }
+        },
+        {
+          "id": "languagereload.json",
+          "name": "languagereload.json",
+          "type": "File",
+          "artifact": {
+            "size": 179,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/languagereload.json",
+            "MD5": "99613d4865bfe1a2ddf1548253fffafc",
+            "path": "config/languagereload.json"
+          }
+        },
+        {
+          "id": "lithium.properties",
+          "name": "lithium.properties",
+          "type": "File",
+          "artifact": {
+            "size": 430,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/lithium.properties",
+            "MD5": "422e0797eef9c35fe7d8ecea0ac3f567",
+            "path": "config/lithium.properties"
+          }
+        },
+        {
+          "id": "midnightlib.json",
+          "name": "midnightlib.json",
+          "type": "File",
+          "artifact": {
+            "size": 37,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/midnightlib.json",
+            "MD5": "5d33d36208b50f3a0951695c2e806d98",
+            "path": "config/midnightlib.json"
+          }
+        },
+        {
+          "id": "modelfix-client.json",
+          "name": "modelfix-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 206,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/modelfix-client.json",
+            "MD5": "bddb52111aa6b3b9fe5d30aba14d5f3a",
+            "path": "config/modelfix-client.json"
+          }
+        },
+        {
+          "id": "modernfix-mixins.properties",
+          "name": "modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 3422,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/modernfix-mixins.properties",
+            "MD5": "302a528d1b3446880da7b62d8b974571",
+            "path": "config/modernfix-mixins.properties"
+          }
+        },
+        {
+          "id": "modmenu.json",
+          "name": "modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 845,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/modmenu.json",
+            "MD5": "b16c2a59573a02bae4aa6c4f0fc20c48",
+            "path": "config/modmenu.json"
+          }
+        },
+        {
+          "id": "notenoughanimations.json",
+          "name": "notenoughanimations.json",
+          "type": "File",
+          "artifact": {
+            "size": 1388,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/notenoughanimations.json",
+            "MD5": "7ebebbada3401a194abd0080039e43f5",
+            "path": "config/notenoughanimations.json"
+          }
+        },
+        {
+          "id": "server-entries.toml",
+          "name": "server-entries.toml",
+          "type": "File",
+          "artifact": {
+            "size": 150,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/simple-rpc/server-entries.toml",
+            "MD5": "2fca628745ebfdc5b64aa8101f507a36",
+            "path": "config/simple-rpc/server-entries.toml"
+          }
+        },
+        {
+          "id": "simple-rpc.toml",
+          "name": "simple-rpc.toml",
+          "type": "File",
+          "artifact": {
+            "size": 9863,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/simple-rpc/simple-rpc.toml",
+            "MD5": "3f457e189848b01ea0229071d5f8e673",
+            "path": "config/simple-rpc/simple-rpc.toml"
+          }
+        },
+        {
+          "id": "skinlayers.json",
+          "name": "skinlayers.json",
+          "type": "File",
+          "artifact": {
+            "size": 401,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/skinlayers.json",
+            "MD5": "f2f8fde2125f20f5eb576adec24a7e36",
+            "path": "config/skinlayers.json"
+          }
+        },
+        {
+          "id": "sodium-extra-options.json",
+          "name": "sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 1690,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/sodium-extra-options.json",
+            "MD5": "93ddeccc9010ecb026b29995eff6d6ad",
+            "path": "config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "sodium-extra.properties",
+          "name": "sodium-extra.properties",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/sodium-extra.properties",
+            "MD5": "72b9d6dd6ada7b00ef334ee176054dbf",
+            "path": "config/sodium-extra.properties"
+          }
+        },
+        {
+          "id": "sodium-fingerprint.json",
+          "name": "sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/sodium-fingerprint.json",
+            "MD5": "119607b3e03819a5912be77bcdef0709",
+            "path": "config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "sodium-mixins.properties",
+          "name": "sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 265,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/sodium-mixins.properties",
+            "MD5": "456d99888369486f42d6ea7f70294170",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 632,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/sodium-options.json",
+            "MD5": "0526655acb6938560728d66ecb98fc90",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "waveycapes.json",
+          "name": "waveycapes.json",
+          "type": "File",
+          "artifact": {
+            "size": 179,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/waveycapes.json",
+            "MD5": "a7c8c6467d45988eef46dea486fad847",
+            "path": "config/waveycapes.json"
+          }
+        },
+        {
+          "id": "xaerominimap-common.txt",
+          "name": "xaerominimap-common.txt",
+          "type": "File",
+          "artifact": {
+            "size": 115,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/xaerominimap-common.txt",
+            "MD5": "3806362283e66fca780eff39eb5e5e8d",
+            "path": "config/xaerominimap-common.txt"
+          }
+        },
+        {
+          "id": "xaerominimap.txt",
+          "name": "xaerominimap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3509,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/xaerominimap.txt",
+            "MD5": "5b4c0f726fcf022705789540c6b47d2c",
+            "path": "config/xaerominimap.txt"
+          }
+        },
+        {
+          "id": "xaerominimap_entities.json",
+          "name": "xaerominimap_entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 5531,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/xaerominimap_entities.json",
+            "MD5": "2e7e0503f4f9dd1c271c6617a968ebf9",
+            "path": "config/xaerominimap_entities.json"
+          }
+        },
+        {
+          "id": "xaeropatreon.txt",
+          "name": "xaeropatreon.txt",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/xaeropatreon.txt",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/xaeropatreon.txt"
+          }
+        },
+        {
+          "id": "xaeroworldmap-common.txt",
+          "name": "xaeroworldmap-common.txt",
+          "type": "File",
+          "artifact": {
+            "size": 90,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/xaeroworldmap-common.txt",
+            "MD5": "8e5a59e4a1fb2a8b5e938a24f9f84fe9",
+            "path": "config/xaeroworldmap-common.txt"
+          }
+        },
+        {
+          "id": "xaeroworldmap.txt",
+          "name": "xaeroworldmap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1218,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/xaeroworldmap.txt",
+            "MD5": "61668053aa4dc58507cde11ed376502c",
+            "path": "config/xaeroworldmap.txt"
+          }
+        },
+        {
+          "id": "yacl.json5",
+          "name": "yacl.json5",
+          "type": "File",
+          "artifact": {
+            "size": 35,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/yacl.json5",
+            "MD5": "81d542abb72c4750c7218e0d975e3368",
+            "path": "config/yacl.json5"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2790,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/yosbr/options.txt",
+            "MD5": "c6b90774cebda959b5f758f8f1cc235e",
+            "path": "config/yosbr/options.txt"
+          }
+        },
+        {
+          "id": "Mc둥근모.zip",
+          "name": "Mc둥근모.zip",
+          "type": "File",
+          "artifact": {
+            "size": 461184,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/yosbr/resourcepacks/Mc%EB%91%A5%EA%B7%BC%EB%AA%A8.zip",
+            "MD5": "1e621b7b86ac1c7b6fb62fce9a95060f",
+            "path": "config/yosbr/resourcepacks/Mc둥근모.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 3370,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/yosbr/servers.dat",
+            "MD5": "e71f7e4e878f9662a219f562e7836a17",
+            "path": "config/yosbr/servers.dat"
+          }
+        },
+        {
+          "id": "zoomify.json",
+          "name": "zoomify.json",
+          "type": "File",
+          "artifact": {
+            "size": 714,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/config/zoomify.json",
+            "MD5": "56dae7d2f4ede2e76c76f570ea143727",
+            "path": "config/zoomify.json"
+          }
+        },
+        {
+          "id": "BSL_v8.2.09.zip",
+          "name": "BSL_v8.2.09.zip",
+          "type": "File",
+          "artifact": {
+            "size": 954784,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/shaderpacks/BSL_v8.2.09.zip",
+            "MD5": "4443556b4e0d63394f0df1297e484454",
+            "path": "shaderpacks/BSL_v8.2.09.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.2.2.zip",
+          "name": "ComplementaryUnbound_r5.2.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 441687,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/shaderpacks/ComplementaryUnbound_r5.2.2.zip",
+            "MD5": "77b72dd3824ad2d6ddb1f952a786137c",
+            "path": "shaderpacks/ComplementaryUnbound_r5.2.2.zip"
+          }
+        },
+        {
+          "id": "Pastel-Shaders-Universal-v1.200.zip",
+          "name": "Pastel-Shaders-Universal-v1.200.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1023746,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/shaderpacks/Pastel-Shaders-Universal-v1.200.zip",
+            "MD5": "f99b5764648634b39669bb25b6a8330c",
+            "path": "shaderpacks/Pastel-Shaders-Universal-v1.200.zip"
+          }
+        },
+        {
+          "id": "Pastel-Shaders-Universal-v1.200.zip.txt",
+          "name": "Pastel-Shaders-Universal-v1.200.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 59,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/shaderpacks/Pastel-Shaders-Universal-v1.200.zip.txt",
+            "MD5": "28c790cf785a67b8f3fa448961c161e3",
+            "path": "shaderpacks/Pastel-Shaders-Universal-v1.200.zip.txt"
+          }
+        },
+        {
+          "id": "Solas Shader V2.1.zip",
+          "name": "Solas Shader V2.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1229197,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/shaderpacks/Solas%20Shader%20V2.1.zip",
+            "MD5": "51f9412107cb7380b2e74dba91194960",
+            "path": "shaderpacks/Solas Shader V2.1.zip"
+          }
+        },
+        {
+          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV91.0§r§l.zip",
+          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV91.0§r§l.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3182645,
+            "url": "https://leehohyung0117.github.io/servers/%EC%9C%A0%EC%99%80%EC%84%9C%EB%B2%84-1.20.4/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV91.0%C2%A7r%C2%A7l.zip",
+            "MD5": "f8ee335e23b1e93cd4b839e8f60350d6",
+            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV91.0§r§l.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
